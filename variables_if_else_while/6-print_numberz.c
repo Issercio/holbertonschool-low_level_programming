@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: Prints all single digit numbers
- * base 10 starting from 0
+ * base 10 starting from 0 without using char
  *
  * Return: Always 0 (Success)
  */
