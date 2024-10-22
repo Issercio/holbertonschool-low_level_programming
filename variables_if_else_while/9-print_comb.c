@@ -13,7 +13,7 @@ int numbers;
 for (numbers = '0'; numbers <= '9' numbers++)
 {
 putchar(numbers + '0');
-if (numbers < 9)
+if (numbers != '9')
 {
 putchar(',');
 putchar(' ');
