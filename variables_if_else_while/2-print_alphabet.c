@@ -3,10 +3,10 @@
 /**
  * main - Entry point
  *
- * Description: Print the alphabet in lowercase
+ * Description: Prints the alphabet in lowercase
  * using only the putchar fonction
  *
- * Return Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
