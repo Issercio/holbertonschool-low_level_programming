@@ -16,7 +16,7 @@ for (numbers = '0'; numbers <= '9'; numbers++)
 {
 putchar (numbers);
 }
-for (letter = 'a'; letter <= 'z'; letter++)
+for (letter = 'a'; letter <= 'f'; letter++)
 {
 putchar (letter);
 }
