@@ -6,7 +6,7 @@
  * Description: Print the alphabet in lowercase
  * using only the putchar fonction
  *
- * Return always 0 (Success)
+ * Return Always 0 (Success)
  */
 int main(void)
 {
