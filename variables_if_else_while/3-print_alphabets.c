@@ -3,8 +3,8 @@
 /**
  * main Entry point
  *
- * Description: Prints the alphabet in lowercase and uppercase
- * using only the putchar fonction
+ * Description: Prints the alphabet in lowercase, then is uppercase
+ *
  *
  * Return: Always 0 (Success)
  */
@@ -15,9 +15,10 @@ for (letter = 'a'; letter <= 'z'; letter++)
 {
 putchar (letter);
 }
-putchar ('\n');
 for (letter = 'A'; letter <= 'Z'; letter++)
-
+{
+putchar (letter);
+}
 putchar ('\n');
 
 return (0);
