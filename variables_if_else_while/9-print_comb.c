@@ -12,7 +12,7 @@ int main(void)
 int numbers;
 for (numbers = '0'; numbers <= '9' numbers++)
 {
-putchar(numbers + '0');
+putchar (numbers);
 if (numbers != '9')
 {
 putchar(',');
