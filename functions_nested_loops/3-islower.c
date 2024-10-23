@@ -5,7 +5,8 @@
  * _islower - check for the lowercase
  * @c: the charcter to be checked
  *
- * Description: Check the input for the lowercase
+ * Description: Check if the input character
+ * is a lowercase letter (from 'a' to 'z').
  *
  * Return 1 if c is lowercase, 0 otherwise
  */
