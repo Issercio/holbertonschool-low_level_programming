@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * times_tables - Prints the 9 table
+ * times_table - Prints the 9 table
  *
  * Description: Prints the 9 table starting with 0
  *
@@ -16,7 +16,7 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 result = i * j;
-if (j ==0)
+if (j == 0)
 {
 _putchar('0');
 }
