@@ -21,7 +21,7 @@ if (j == 0)
 {
 _putchar('0');
 }
-else if (result < 9)
+else if (result <= 9)
 {
 _putchar(',');
 _putchar(' ');
