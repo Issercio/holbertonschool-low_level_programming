@@ -3,7 +3,7 @@
 
 /**
  * _print_sign - Check the function that print the sign of a numbers
- * @n: The character to be checked
+ * @n: The numbers to be checked
  *
  * Description: prints the sign of a numbers
  *
