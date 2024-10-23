@@ -1,0 +1,15 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * times_tables - Prints the 9 table
+ *
+ * Description: Prints the 9 table starting with 0
+ *
+ *
+ */
+void times_tables(void)
+{
+  int times, tables;
+  for (times = 0; times < 9; times++)
+    
