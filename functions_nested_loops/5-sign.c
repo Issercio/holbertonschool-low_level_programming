@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * _print_sign - Check the function that print the sign of a numbers
+ * print_sign - Check the function that print the sign of a numbers
  * @n: The numbers to be checked
  *
  * Description: prints the sign of a numbers
- *
+ * and prints the corresponding symbol ('+', '0', or '-')
  * Return: 1 and prints + if n is grezter than zero
  * 0 and prints 0 if n is zero
  * -1 prints - if n is less than zero
