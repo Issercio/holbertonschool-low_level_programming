@@ -4,6 +4,9 @@
 /**
  * print_line.c - Check the function that draw a straight line
  * @n: number of times the character _ should be printed
+ *
+ * Description: Write a function that draw a straight line
+ *
  */
 void print_line(int n)
 {
