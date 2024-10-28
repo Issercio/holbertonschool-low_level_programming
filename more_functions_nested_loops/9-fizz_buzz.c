@@ -1,26 +1,27 @@
 #include <stdio.h>
 
 /**
- * Fizz_Buzz - Print numbers from 1 to 100
- * but for the multiplies of 3 print Fizz,for the multiplies of 5 print Buzz
+ * Fizz_Buzz - Functions.
  *
+ * Description: print number to 100
+ * Return: 0
  */
 int main(void)
 {
 int i;
-for (i = '1'; i <= 100; i++)
+for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-printf("FizzBuzz");
+printf("FizzBuzz ");
 }
 else if (i % 3 == 0)
 {
-printf("Fizz");
+printf("Fizz ");
 }
 else if (i % 5 == 0)
 {
-printf("Buzz");
+printf("Buzz ");
 }
 else
 {
