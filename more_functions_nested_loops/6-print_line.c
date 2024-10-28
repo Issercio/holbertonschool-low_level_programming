@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_line.c - Draw a straight line in the terminal
+ * print_line - Draw a straight line in the terminal
  * @n: number of times the character _ should be printed
  *
  * Description: If n is 0 or less, the function should only print \n
