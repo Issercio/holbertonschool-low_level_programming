@@ -3,20 +3,22 @@
 
 /**
  * print_line.c - Check the function that draw a straight line
- * @n: the function to be checked
- *
- * Description: Write a function that draw a straight line
- *
- * Return:n is 0, otherwise print \n
+ * @n: number of times the character _ should be printed
  */
 void print_line(int n)
 {
-for (n = '0'; n <= '_';)
-{
-_putchar(n + '0');
+if (n <= 0)
 {
 _putchar('\n');
 }
+else
+{
+int i;
+for (i = 1; i <= n; i++)
+{
+_putchar('_');
+}
+_putchar('\n');
 }
 }
 
