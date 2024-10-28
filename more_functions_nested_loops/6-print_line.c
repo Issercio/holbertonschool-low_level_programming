@@ -5,7 +5,7 @@
  * print_line.c - Draw a straight line in the terminal
  * @n: number of times the character _ should be printed
  *
- * Description: Write a function that draw a straight line
+ * Description: Write a function that draw a straight line in the terminal
  *
  */
 void print_line(int n)
