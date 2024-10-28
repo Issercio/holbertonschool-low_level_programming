@@ -7,6 +7,7 @@
  *
  * Description: If n is 0 or less, the function should only print \n
  *
+ *
  */
 void print_line(int n)
 {
