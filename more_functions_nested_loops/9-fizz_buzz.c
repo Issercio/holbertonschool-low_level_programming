@@ -3,8 +3,7 @@
 /**
  * main - Prints numbers from 1 to 100 with Fizz-Buzz substitutions
  *
- * Description: print number 1 to 100, replacing multiples of 3 with 
- * "Fizz", multiplies of 5 with "Buzz", and multiplies of both with "FizzBuzz".
+ * Description: print number 1 to 100, replacing with Fizz-Buzz substitutions
  *
  * Return: 0
  */
