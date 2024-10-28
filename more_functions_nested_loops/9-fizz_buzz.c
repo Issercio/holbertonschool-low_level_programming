@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,7 +5,7 @@
  * but for the multiplies of 3 print Fizz,for the multiplies of 5 print Buzz
  *
  */
-void fizz_buzz(void)
+int main(void)
 {
 int i;
 for (i = '1'; i <= 100; i++)
@@ -27,7 +26,7 @@ else
 {
 printf("%d", i);
 }
-if (1 < 100)
+if (i < 100)
 {
 printf(" ");
 }
@@ -36,4 +35,5 @@ else
 printf("\n");
 }
 }
+return (0);
 }
