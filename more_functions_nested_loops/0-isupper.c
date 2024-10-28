@@ -11,8 +11,10 @@
  */
 int _isupper(int c)
 {
-if (c >= 'A' && c <= 'Z')
+if (_isupper('A'))
+printf("'A' is uppercase\n");
 return (1);
-else
+else if (!_isupper('a'))
+printf("'a' is not uppercase\n");
 return (0);
 }
