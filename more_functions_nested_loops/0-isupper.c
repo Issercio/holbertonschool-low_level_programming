@@ -14,7 +14,7 @@ int _isupper(int c)
 if (_isupper('A'))
 printf("'A' is uppercase\n");
 return (1);
-else if (!_isupper('a'))
+if else (!_isupper('a'))
 printf("'a' is not uppercase\n");
 return (0);
 }
