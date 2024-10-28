@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * Fizz_Buzz - Functions.
+ * main - Prints numbers from 1 to 100 with Fizz-Buzz substitutions
  *
- * Description: print number to 100
+ * Description: print number 1 to 100, replacing multiples of 3 with 
+ * "Fizz", multiplies of 5 with "Buzz", and multiplies of both with "FizzBuzz".
+ *
  * Return: 0
  */
 int main(void)
