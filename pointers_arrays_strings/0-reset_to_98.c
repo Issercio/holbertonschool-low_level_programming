@@ -11,12 +11,13 @@
  */
 void reset_to_98(int *n);
 {
-int n = 100;
-printf("before: %d\n", n);
-reset_to_98(&n);
-printf("after: %d\n", n);
-{
-*n =98;
+*n = 98;
 }
+int main(void)
+{
+int n = 100;
+printf("Before: %d\n", n);
+reset_to_98(&n);
+printf("After: %d\n", n);
 return 0;
 }
