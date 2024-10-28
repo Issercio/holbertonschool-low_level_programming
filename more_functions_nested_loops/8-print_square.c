@@ -4,8 +4,8 @@
 /**
  * print_square - Print a square, followed by a new line
  * @size: size of the square
- * 
- * Description: write a function that print a square if the size is 0 or less 
+ *
+ * Description: write a function that print a square if the size is 0 or less
  * the function should print a new line
  *
  */
