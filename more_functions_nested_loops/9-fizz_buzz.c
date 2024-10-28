@@ -1,8 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * fizz_buzz - Prints numbers from 1 to 100 with Fizz, Buzz, and FizzBuzz rules
+ * main - Entry point of the program
+ *
+ * Return: Always 0 (Success)
  */
 void fizz_buzz(void)
 {
