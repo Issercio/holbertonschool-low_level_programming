@@ -3,16 +3,15 @@
 
 /**
  * swap_int - Functions.
- *
+ * @a: pointer to the first integer
+ * @b: pointer to the second integer
  * Description: write a function that swaps the value of two integers
  *
  */
 void swap_int(int *a, int *b)
 {
-int *a = 45, *b = 80, temp;
-temp = a;
-a = b;
-b = temp;
-printf("a = %d, b = %d\n", a, b);
-return (0);
+int temp;
+temp = *a;
+*a = *b;
+*b = temp;
 }
