@@ -8,6 +8,7 @@
  *
  * Description: Write a function that copies the string
  *
+ * Return: A pointer to the destination string dest.
  */
 char *_strcpy(char *dest, char *src)
 {
