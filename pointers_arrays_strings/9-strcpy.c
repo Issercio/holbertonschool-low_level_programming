@@ -4,6 +4,7 @@
 /**
  * _strcpy - Function
  * @src: the string to copy from
+ * @dest: the destination buffer where the string will be copied
  *
  * Description: Write a function that copies the string
  *
