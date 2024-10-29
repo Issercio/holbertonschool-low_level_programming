@@ -14,12 +14,13 @@ int length = 0;
 char *s = str;
 while (s[length] != '\0')
 {
-if (length % 1 / 2)
 length++;
 s++;
 }
+*s = (length + 1) / 2; 
+while (s[length] != '\0')
 {
 _putchar(s[length]);
-}
 length++;
+}
 }
