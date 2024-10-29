@@ -16,10 +16,10 @@ for (i = 0; i < n; i++)
 {
 if (i > 0)
 {
-_putchar(',');
-_putchar(' ');
+printf(",");
+printf(" ");
 }
-print_number(a[i]); 
+printf("%d", a[i]);
 }
-_putchar('\n');
+printf("\n");
 }
