@@ -2,12 +2,14 @@
 #include <stdio.h>
 
 /**
- * _atoi - Function
- * @s: the string to convert.
+ * _atoi - Converts a string to an integer.
+ * @s: The string to convert.
  *
- * Description: write a function that convert a string to an integer
+ * Description: Converts a string to an integer, taking into account
+ *              leading whitespace and signs. Returns 0 if no numbers
+ *              are found.
  *
- * Return: The convered integer or 0 if no number are present
+ * Return: The converted integer or 0 if no numbers are present.
  */
 int _atoi(char *s)
 {
