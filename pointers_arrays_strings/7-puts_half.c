@@ -3,7 +3,6 @@
 
 /**
  * puts_half - Function
- * @n: the character to be checked
  *
  * Description: write a function that print half of a string
  *
