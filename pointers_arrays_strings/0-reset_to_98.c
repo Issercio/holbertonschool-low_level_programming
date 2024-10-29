@@ -13,11 +13,4 @@ void reset_to_98(int *n)
 {
 *n = 98;
 }
-int main(void)
-{
-int number = 100;
-printf("Before: %d\n", number);
-reset_to_98(&number);
-printf("After: %d\n", number);
-return 0;
-}
+
