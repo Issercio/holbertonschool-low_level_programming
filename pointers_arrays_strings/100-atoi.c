@@ -14,6 +14,7 @@ int _atoi(char *s)
 int sign = 1;
 unsigned int num = 0;
 int i = 0;
+int found_number = 0;
 while (s[i] == ' ')
 {
 i++;
@@ -27,7 +28,8 @@ i++;
 while (s[i] >= '0' && s[i] <= '9')
 {
 num = num * 10 + (s[i] - '0');
+found_number = 1;
 i++;
 }
-return (sign *num);
+return (found_number ? sign * num : 0);
 }
