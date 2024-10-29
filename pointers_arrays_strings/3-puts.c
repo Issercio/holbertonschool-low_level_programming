@@ -3,17 +3,12 @@
 
 /**
  * _puts - Function
+ * @str: the string to be printed
  *
  * Description: write a function that prits a string
  *
  */
 void _puts(char *str)
 {
-int i = 0;
-while (str[i] != '\0')
-{
-putchar(str[i]);
-i++;
-}
-putchar('\n');
+puts(str);
 }
