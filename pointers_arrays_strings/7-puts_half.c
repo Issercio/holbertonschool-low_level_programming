@@ -14,12 +14,13 @@ int length = 0;
 while (*str != '\0')
 {
 if (length % 1 / 2)
-length++;
-str++;
-}
 {
 _putchar(str[length]);
 }
 length++;
+str++;
+{
 _putchar('\n');
+}
+}
 }
