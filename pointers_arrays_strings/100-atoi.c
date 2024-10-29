@@ -17,6 +17,7 @@ int sign = 1;
 unsigned int num = 0;
 int i = 0;
 int found_number = 0;
+printf("Input string: '%s'\n", s);
 while (s[i] == ' ')
 {
 i++;
@@ -33,5 +34,6 @@ num = num * 10 + (s[i] - '0');
 found_number = 1;
 i++;
 }
+printf("Final result: %d\n", found_number ? sign * num : 0);
 return (found_number ? sign *num : 0);
 }
