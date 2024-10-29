@@ -15,9 +15,9 @@ void reset_to_98(int *n);
 }
 int main(void)
 {
-int n = 100;
-printf("Before: %d\n", n);
-reset_to_98(&n);
-printf("After: %d\n", n);
+int number = 100;
+printf("Before: %d\n", number);
+reset_to_98(&number);
+printf("After: %d\n", number);
 return 0;
 }
