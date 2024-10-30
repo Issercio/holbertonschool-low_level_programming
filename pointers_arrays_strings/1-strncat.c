@@ -13,16 +13,22 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-  char *start = dest;
-  while (*start != '\0')
-    {
-      start++;
-    }
-  while (*src != '\0')
-    {
-      *start = *src;
-      start++;
-    }
-  *start = '\0';
-  return (dest);
+char *start = dest;
+int roger = 0;
+while (*start != '\0')
+{
+start++;
+}
+while (*src != '\0' && roger < n)
+{
+*start = *src;
+start++;
+src++;
+roger++;
+}
+if (n > 0 && roger < n)
+{
+*start = '\0';
+}
+return (dest);
 }
