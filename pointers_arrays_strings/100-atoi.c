@@ -5,9 +5,7 @@
  * _atoi - Converts a string to an integer.
  * @s: The string to convert.
  *
- * Description: Converts a string to an integer, taking into account
- *              leading whitespace and signs. Returns 0 if no numbers
- *              are found.
+ * Description: Converts a string to an integer,
  *
  * Return: The converted integer or 0 if no numbers are present.
  */
