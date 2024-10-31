@@ -8,6 +8,7 @@
  * Description: write a function that changes all lowercase letter of a string
  * to uppercase
  *
+ * Return: 0 Always (Success)
  */
 char *string_toupper(char *str)
 {
