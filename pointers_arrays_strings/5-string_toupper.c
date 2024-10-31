@@ -11,15 +11,15 @@
  */
 char *string_toupper(char *)
 {
+char *str = *;
 int roger = 0;
 while (str[roger] != '\0')
 {
 if (str[roger] >= 'a' && str[roger] <= 'z')
 {
-str([roger] = str[roger] - 32;
+str[roger] = str[roger] - 32;
 }
 roger++;
 }
 return (str);
-}
 }
