@@ -9,9 +9,8 @@
  * to uppercase
  *
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
-char *str = *;
 int roger = 0;
 while (str[roger] != '\0')
 {
