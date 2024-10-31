@@ -4,6 +4,7 @@
 /**
  * reverse_array - function
  * @n: the number of array
+ * @a: pointer of the array to be reversed
  *
  * Description: write a function that reverse the content of an array
  *
