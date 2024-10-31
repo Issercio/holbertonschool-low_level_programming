@@ -7,6 +7,7 @@
  *
  * Description: write a function that capitalizes all word of a string
  *
+ * Return: 0 Always (Success)
  */
 char *cap_string(char *str)
 {
