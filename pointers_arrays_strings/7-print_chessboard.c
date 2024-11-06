@@ -3,6 +3,7 @@
 
 /**
  * print_chess - function
+ * @a: 2D array representing the chessboard
  *
  * Description : write a function that print a chessboard
  *
@@ -15,11 +16,8 @@ for (roger = 0; roger < 8; roger++)
 {
 for (George = 0; George < 8; George++)
 {
-printf("%c", a[roger][George]);
-if (George == 7)
-printf("\n");
-else
-printf(" ");
+putchar(a[roger][George]);
+putchar('\n');
 }
 }
 }
