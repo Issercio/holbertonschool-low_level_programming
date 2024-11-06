@@ -17,7 +17,7 @@ for (roger = 0; roger < 8; roger++)
 for (George = 0; George < 8; George++)
 {
 putchar(a[roger][George]);
-putchar('\n');
 }
+putchar('\n');
 }
 }
