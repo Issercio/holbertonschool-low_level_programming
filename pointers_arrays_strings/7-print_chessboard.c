@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_chess - function
+ * _strspn - function
+ * @s: the string to be scanned
  *
  * Description : write a function that print a chessboard
  *
