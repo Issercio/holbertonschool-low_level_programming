@@ -6,7 +6,6 @@
  * _strchr - function
  * @c: the character to find
  * @s: the string to search
- * @null: if the character is not found
  *
  * Description: write a function that locate a character in a string
  *
