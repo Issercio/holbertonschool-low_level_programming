@@ -9,18 +9,26 @@
  *
  * Return: 0 Always (Success)
  */
-void print_chessboard(char (*a)[8])
+unsigned int _strspn(char *s, char *accept)
 {
-int roger, George;
-for (roger = 0; roger < 8; roger++)
+unsigned int count = 0;
+int isAccepted;
+char *a;
+while (*s)
 {
-for (George = 0; George < 8; George++)
+isAccepted = 0;
+for (a = accept; *a; a++)
 {
-printf("%c", a[roger][George]);
-if (George == 7)
-printf("\n");
-else
-printf(" ");
+if (*s == *a)
+{
+isAccepted = 1;
+break;
 }
 }
+if (isAccepted == 0)
+break;
+count++;
+s++;
+}
+return (count);
 }
