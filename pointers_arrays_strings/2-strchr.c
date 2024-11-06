@@ -9,7 +9,8 @@
  *
  * Description: write a function that locate a character in a string
  *
- * Return: 0 Always (Succes)
+ * Return: a pointer to the first occurence of the character
+ * or NULL if the character is not found
  */
 char *_strchr(char *s, char c)
 {
