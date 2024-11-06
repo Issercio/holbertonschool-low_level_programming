@@ -1,8 +1,7 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * strspn - function
+ * _strspn - function
  * @s: number of bytes
  * @accept: bytes from s
  *
