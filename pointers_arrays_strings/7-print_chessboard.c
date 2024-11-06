@@ -2,33 +2,24 @@
 #include <stdio.h>
 
 /**
- * _strspn - function
- * @s: the string to be scanned
+ * print_chess - function
  *
  * Description : write a function that print a chessboard
  *
  * Return: 0 Always (Success)
  */
-unsigned int _strspn(char *s, char *accept)
+void print_chessboard(char (*a)[8])
 {
-unsigned int count = 0;
-int isAccepted;
-char *a;
-while (*s)
+int roger, George;
+for (roger = 0; roger < 8; roger++)
 {
-isAccepted = 0;
-for (a = accept; *a; a++)
+for (George = 0; George < 8; George++)
 {
-if (*s == *a)
-{
-isAccepted = 1;
-break;
+printf("%c", a[roger][George]);
+if (George == 7)
+printf("\n");
+else
+printf(" ");
 }
 }
-if (isAccepted == 0)
-break;
-count++;
-s++;
-}
-return (count);
 }
