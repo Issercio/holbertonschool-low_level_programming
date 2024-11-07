@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 int roger;
 for (roger = 0; roger < argc; roger++)
 {
-printf("%s\n", argv[1]);
+printf("%s\n", argv[roger]);
 }
 return (0);
 }
