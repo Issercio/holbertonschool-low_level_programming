@@ -16,13 +16,13 @@ char *dup_str;
 unsigned int len = 0;
 if (head == NULL || str == NULL)
 return (NULL);
- new_mode = malloc(sizeof(list_t));
-if (new_mode == NULL)
+new_node = malloc(sizeof(list_t));
+if (new_node == NULL)
 return (NULL);
- dup_str = strdup(str);
+dup_str = strdup(str);
 if (dup_str == NULL)
 {
-free(new_mode);
+free(new_node);
 return (NULL);
 }
 while (str[len])
