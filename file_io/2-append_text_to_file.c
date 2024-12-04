@@ -10,12 +10,12 @@
  * @filename: The name of the file to append to.
  * @text_content: The NULL-terminated string to append to the file.
  *
- * Description: This function appends `text_content` at the end of the 
- * specified file. If the file does not exist, or if the program does 
+ * Description: This function appends `text_content` at the end of the
+ * specified file. If the file does not exist, or if the program does
  * not have permission to write to the file, it returns -1. If `text_content`
  * is NULL, no text is appended, and the function returns 1 if the file exists.
  *
- * Return: 1 on success, -1 on failure (file does not exist, cannot write, etc.).
+ * Return: 1 on success, -1 on failure
  */
 int append_text_to_file(const char *filename, char *text_content)
 {

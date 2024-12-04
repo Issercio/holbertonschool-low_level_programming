@@ -10,9 +10,9 @@
  * @filename: The name of the file to create.
  * @text_content: The NULL-terminated string to write to the file.
  *
- * Description: This function creates a file with the specified `filename` 
- * and writes `text_content` to it. If `text_content` is NULL, an empty 
- * file is created. The file permissions are set to `rw-------` (0600). 
+ * Description: This function creates a file with the specified `filename`
+ * and writes `text_content` to it. If `text_content` is NULL, an empty
+ * file is created. The file permissions are set to `rw-------` (0600).
  * If the file already exists, it is truncated.
  *
  * Return: 1 on success, -1 on failure (e.g., file cannot be created,
