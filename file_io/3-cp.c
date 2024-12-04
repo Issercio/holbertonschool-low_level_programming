@@ -34,19 +34,6 @@ dprintf(2, "Error: Can't close fd %d\n", fd_from), exit(100);
 if (close(fd_to) == -1)
 dprintf(2, "Error: Can't close fd %d\n", fd_to), exit(100);
 }
-
-/**
- * main - Validates arguments and initiates the copy process.
- * @argc: The number of arguments passed to the program.
- * @argv: The array of arguments.
- *
- * Description: The function checks if the program is passed
- * arguments. It calls `copy_file` to copy data from `file_from` to `file_to`.
- *
- * Return: Always 0 on success, or exits with an error code:
- *         - 97 if arguments are incorrect
- *         - Other codes based on file operation errors
- */
 int main(int argc, char *argv[])
 {
 if (argc != 3)
