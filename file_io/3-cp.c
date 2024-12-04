@@ -57,7 +57,8 @@ exit(100);
  * @argc: The number of arguments passed to the program.
  * @argv: The array of arguments.
  *
- * Description: The function checks if the program is passed the correct number of
+ * Description: The function checks if the program
+ * is passed the correct number of
  * arguments. It calls `copy_file` to copy data from `file_from` to `file_to`.
  *
  * Return: Always 0 on success, or exits with an error code:
